@@ -1,0 +1,5 @@
+<h3>Student Login Details</h3>
+<p>Student Name:<%= @students.username%></p>
+<p>Roll Number :<%= @students.password%></p>
+<%= link_to "index", students_path %>
+<%=link_to "Edit" ,edit_student_path(@student)%>
